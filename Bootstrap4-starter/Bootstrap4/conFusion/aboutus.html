@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark navbar-expand-sm bg-primary  fixed-top">
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
        <div class="container">     <!-- restrict to the same width as content of the webpage.  -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
               <span class="navbar-toggler-icon"> </span>
@@ -44,13 +44,19 @@
         </div>
     </header>
 
-    <div>
-        <div>
-            <div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+          <ol class="col-12 breadcrumb">       <!--  using ol tag (div alos works) and 12 for entire screen and using breadcrumbs to specify the path -->
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">About Us</li>
+
+          </ol>
                <h3>About Us</h3>
                <hr>
             </div>
         </div>
+      </div>
 
         <div class="row row-content align-items-left">
             <div class="col-12 col-sm-6 ">
