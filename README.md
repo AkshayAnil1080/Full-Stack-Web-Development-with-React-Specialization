@@ -20,6 +20,15 @@
 	Bootstrap-social<br>
 	     stylesheet : <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 	     syntax : <a class="btn btn-social-icon btn-google" >
+
+## 2.2.1 User Input: Buttons and Forms: Objectives and Outcomes
+	a. <a>
+	b. <button>
+	c. <form> - <input type=text/password/submit...> - <textarea> - <button> - <select>
 	
+## 2.2.2 Exercise
+	a. buttons group
+	b. fashioning <a> tag to be used and buttons which include hyperlinks.
+![](outputs/buttons_output2.2.2.jpg)
 	
 	 
